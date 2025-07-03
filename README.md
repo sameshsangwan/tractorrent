@@ -1,2 +1,1 @@
-# tractorrent
-tractor rental app(frontend-backend)
+// Dummy content for README.md
