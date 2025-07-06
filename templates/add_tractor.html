@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Add Tractor</title>
+</head>
+<body>
+    <h1>Add Your Tractor</h1>
+    <form method="POST" action="/add-tractor">
+        <label>Tractor Name:</label><br>
+        <input type="text" name="name" required><br><br>
+
+        <label>Price (according to area):</label><br>
+        <input type="number" name="price" required><br><br>
+
+        <label>Purpose:</label><br>
+        <select name="purpose" required>
+            <option value="cultivation">Cultivation</option>
+            <option value="sowing">Sowing</option>
+            <option value="transport">Transport</option>
+        </select><br><br>
+
+        <label>Image URL:</label><br>
+        <input type="text" name="image"><br><br>
+
+        <label>Distance (in km):</label><br>
+        <input type="number" name="distance"><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
